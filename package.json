@@ -1,0 +1,37 @@
+{
+  "name": "@aliencreations/node-logger",
+  "version": "1.0.0",
+  "description": "Logger for node apps.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jasmine ./spec/**/*.js"
+  },
+  "dependencies": {
+    "pino": "^5.11.3",
+    "pino-pretty": "^3.6.0",
+    "serialize-error": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliencreations/node-logger.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "logger",
+    "pino"
+  ],
+  "author": "Sean Cannon",
+  "bugs": {
+    "url": "https://github.com/aliencreations/node-logger/issues"
+  },
+  "homepage": "https://github.com/aliencreations/node-logger",
+  "devDependencies": {
+    "@aliencreations/eslint-config": "^1.x.x",
+    "eslint": "^5.16.0",
+    "jasmine": "^3.4.0",
+    "jasmine-console-reporter": "^3.1.0"
+  }
+}
